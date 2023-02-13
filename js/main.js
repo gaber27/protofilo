@@ -98,3 +98,12 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+setTimeout(function(){
+    window.location.href="../pages/front.html";
+}, 3000);
+
+
+// setInterval(window.location.href="../pages/front.html", 5000);
+
+// window.location.href="sample.html";
