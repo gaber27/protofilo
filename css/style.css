@@ -82,7 +82,7 @@ body
 }
 .navbar .logo
 {
-    width: 60px;
+    /* width: 60px; */
 }
 .navbar .collapse a:hover
 {
@@ -107,8 +107,9 @@ body
     position: absolute;
     align-items: center;
     transform: translateY(-50%);
-    margin: 20px;
-    margin-left: 40px;
+    /* margin: 0 auto; */
+    /* margin-left: 40px; */
+    
 
 }
 .landing .container .typewrite
@@ -150,7 +151,7 @@ body
 .skills
 {
     margin-top: 100px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     align-items: center;
     justify-content: center;
     margin: auto ;
@@ -178,7 +179,7 @@ body
 
 .skills .container .content
 {
-    padding: 50px 0 15px;
+    padding: 50px 35px 15px;
     font-size: large;
     font-weight: 600;
     font-size: 18px;
@@ -212,6 +213,8 @@ body
     margin-bottom: 40px;
     letter-spacing: 0.25cm;
     font-weight: bold;
+    margin-top: 208px;
+
 }
 
 .about-me .container .row h3
