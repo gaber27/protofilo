@@ -99,11 +99,10 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
-setTimeout(function(){
-    window.location.href="../pages/front.html";
-}, 3000);
+setTimeout(function()
+{
+    if(window.location.href == 'https://gabertarek.vercel.app' || window.location.href =='https://gabertarek.vercel.app/index.html'){
+    window.location.href= '../pages/front.html'
+    }
+}, 3000)
 
-
-// setInterval(window.location.href="../pages/front.html", 5000);
-
-// window.location.href="sample.html";
