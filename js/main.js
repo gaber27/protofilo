@@ -101,7 +101,7 @@ window.onload = function() {
 
 setTimeout(function()
 {
-    if(window.location.href == 'https://gabertarek.vercel.app' || window.location.href =='https://gabertarek.vercel.app/index.html'){
+    if(window.location.href == 'https://gabertarek.vercel.app/' || window.location.href =='https://gabertarek.vercel.app/index.html'){
     window.location.href= '../pages/front.html'
     }
 }, 3000)
